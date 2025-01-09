@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-/* ________HEADER_____________ */
+/* ________PAGE-HEADER_____________ */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -58,7 +58,7 @@ a {
   color: #434455;
 }
 
-/* _________PAGE-HEADER____________ */
+/* _________PAGE-HERO____________ */
 
 .page-hero {
   background-color: #2e2f42;
@@ -67,9 +67,10 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  text-align: center;
+  color: #fff;
 }
 
 .hero-btn {
@@ -79,23 +80,28 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* ________PAGE-FEATURE_____________ */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .feature-title {
   font-weight: 500;
@@ -114,16 +120,22 @@ a {
 
 /* ________PAGE-OUR-TEAM_____________ */
 
-.page-Our-Team {
+.page-our-team {
   background-color: #f4f4fd;
 }
 
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -146,8 +158,10 @@ a {
 .portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
