@@ -123,6 +123,7 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -131,7 +132,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #ffffff;
 }
 
 .team-text {
