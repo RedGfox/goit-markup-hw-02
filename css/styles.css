@@ -90,18 +90,9 @@ a {
 
 /* ________PAGE-FEATURE_____________ */
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
+.page-feature h2 {
+  visibility: hidden;
+}
 
 .feature-title {
   font-weight: 500;
@@ -134,16 +125,13 @@ a {
   color: #2e2f42;
 }
 
-.team-list {
-  background-color: #ffffff;
-}
-
 .team-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .team-text {
